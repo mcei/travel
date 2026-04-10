@@ -1,3 +1,43 @@
-remote_theme: pages-themes/architect@v0.2.0
+remote_theme: jekyll/minima
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+
+minima:
+  skin: auto
+  social_links:
+    - title: GitHub
+      icon: github
+      url: "https://github.com/mcei/travel"
+    - title: "Telegram"
+      icon: telegram
+      url: "https://t.me/everybody"
+  # hide_site_feed_link: true
+  nav_pages:
+    - about.md
+    - subfolder/index.md
+  # show_excerpts: true
+
+# Остальные настройки
+title: Название сайта
+markdown: kramdown
+highlighter: rouge
+
+# Информация об авторе (отображается в левой колонке футера)
+author:
+  name: "Ваше Имя"
+  email: "your-email@example.com"
+
+# Описание сайта (отображается в правой колонке футера)
+description: >-
+  Блог о путешествиях. Здесь я делюсь впечатлениями, фотографиями и 
+  полезными советами для самостоятельных путешествий.
+
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - cmds.txt
+
+permalink: pretty
