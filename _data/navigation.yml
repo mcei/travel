@@ -1,0 +1,7 @@
+main:
+  - title: "Главная"
+    url: /
+  - title: "О сайте"
+    url: /about/
+  - title: "Страница1"
+    url: /subfolder/

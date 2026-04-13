@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: Обо мне
 permalink: /about/
 ---

@@ -1,23 +1,22 @@
-remote_theme: jekyll/minima
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-include-cache
 
-minima:
-  skin: auto
-  social_links:
-    - title: GitHub
-      icon: github
-      url: "https://github.com/mcei/travel"
-    - title: "Telegram"
-      icon: telegram
-      url: "https://t.me/everybody"
-  # hide_site_feed_link: true
-  nav_pages:
-    - about.md
-    - subfolder/index.md
-  # show_excerpts: true
+minimal_mistakes_skin: "dark"
+post_navigation: false  # dont work
+show_date: false
+
+main:
+  - title: "Главная"
+    url: /
+  - title: "О сайте"
+    url: /about/
+  - title: "Страница1"
+    url: /subfolder/
+
 
 # Остальные настройки
 title: Название сайта
