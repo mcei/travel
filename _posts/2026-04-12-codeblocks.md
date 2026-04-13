@@ -1,27 +1,44 @@
 ---
 layout: single
-title: "Моя вторая запись"
+title: "Пост с группировкой фоток"
 date: 2026-04-12 00:00:00 +0300
 categories: travel
-post_navigation: false   # добавить сюда как резерв
-show_date: false
+show_date: false                    # работает
+show_pagination: false              # для отключения навигации между постами
 
-
-gallery:
+gallery1:
   - url: /assets/images/IMG_1925.jpeg
     image_path: /assets/images/IMG_1925.jpeg
     alt: "Закат на море"
-    title: "Закат на море"
+    title: "Закат на море (нажмите для увеличения)"
   - url: /assets/images/IMG_1924.jpeg
     image_path: /assets/images/IMG_1924.jpeg
     alt: "Горный пейзаж"
-    title: "Горный пейзаж"
+    title: "Горный пейзаж (нажмите для увеличения)"
   - url: /assets/images/IMG_1923.jpeg
     image_path: /assets/images/IMG_1923.jpeg
-    alt: "Горный пейзаж2"
-    title: "Горный пейзаж2"
+    alt: "Горный пейзаж 2"
+    title: "Горный пейзаж 2 (нажмите для увеличения)"
+
+gallery2:
+  - url: /assets/images/IMG_1922.jpeg
+    image_path: /assets/images/IMG_1922.jpeg
+    alt: "Закат на море"
+    title: "Закат на море (нажмите для увеличения)"
+  - url: /assets/images/IMG_1921.jpeg
+    image_path: /assets/images/IMG_1921.jpeg
+    alt: "Горный пейзаж"
+    title: "Горный пейзаж (нажмите для увеличения)"
 ---
 
-Содержимое страницы
+## Галерея
 
-{% include gallery id="gallery" class="full" caption="Мои путешествия" %}
+Текст перед первой галереей...
+
+{% include gallery id="gallery1" class="full" caption="Закаты и горы" %}
+
+<!-- ## Вторая галерея -->
+
+Текст перед второй галереей...
+
+{% include gallery id="gallery2" class="full" caption="Ещё красивые места" %}

@@ -1,42 +1,51 @@
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+# ===== Тема и плагины =====
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
   - jekyll-include-cache
 
+# ===== Внешний вид =====
 minimal_mistakes_skin: "dark"
-post_navigation: false  # dont work
 show_date: false
+# Включение поиска
+search: true
+words_per_minute: 200
 
-main:
-  - title: "Главная"
-    url: /
-  - title: "О сайте"
-    url: /about/
-  - title: "Страница1"
-    url: /subfolder/
+# Настройка поискового провайдера (по умолчанию используется lunr.js)
+search_provider: lunr  # lunr, algolia, google-custom
 
+# ===== Навигация (перенесено в _data/navigation.yml) =====
 
-# Остальные настройки
+# ===== Основная информация =====
 title: Название сайта
-markdown: kramdown
-highlighter: rouge
-
-# Информация об авторе (отображается в левой колонке футера)
-author:
-  name: "Ваше Имя"
-  email: "your-email@example.com"
-
-# Описание сайта (отображается в правой колонке футера)
 description: >-
   Блог о путешествиях. Здесь я делюсь впечатлениями, фотографиями и 
   полезными советами для самостоятельных путешествий.
 
+# ===== Автор (отображается в подвале) =====
+author:
+  name: "Ваше Имя"
+  email: "your-email@example.com"
+
+# ===== Настройки обработки =====
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: https://github.com/mcei/travel
+  since: "2013"
+
+# ===== Исключения при сборке =====
 exclude:
   - vendor
   - Gemfile
   - Gemfile.lock
   - cmds.txt
-
-permalink: pretty
