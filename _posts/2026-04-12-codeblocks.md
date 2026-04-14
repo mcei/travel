@@ -37,4 +37,4 @@ gallery2:
 
 Текст перед второй галереей...
 
-{% include gallery id="gallery2" caption="Ещё красивые места" %}
+{% include gallery id="gallery2" layout="third" aption="Ещё красивые места" %}
