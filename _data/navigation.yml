@@ -1,7 +1,5 @@
 # _data/navigation.yml
 main:
-  - title: "Главная"
-    url: /
   - title: "О сайте"
     url: /about/
   - title: "Страница"
