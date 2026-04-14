@@ -4,6 +4,8 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+baseurl: "/travel"
+
 minima:
   skin: auto
   social_links:
