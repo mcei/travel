@@ -12,7 +12,16 @@ minimal_mistakes_skin: "dark"
 show_date: false
 # Включение поиска
 search: true
+
+reading_time: true
 words_per_minute: 200
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      read_time: true   # Включаем отображение времени чтения
 
 # Настройка поискового провайдера (по умолчанию используется lunr.js)
 search_provider: lunr  # lunr, algolia, google-custom
@@ -35,13 +44,11 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 
-
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: https://github.com/mcei/travel
-  since: "2013"
 
 # ===== Исключения при сборке =====
 exclude:
