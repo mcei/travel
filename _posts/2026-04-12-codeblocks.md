@@ -17,6 +17,10 @@ gallery1:
     image_path: /assets/images/IMG_1923.jpeg
     alt: "Горный пейзаж 2"
     title: "Горный пейзаж 2"
+  - url: /assets/images/IMG_1923.jpeg
+    image_path: /assets/images/IMG_1923.jpeg
+    alt: "Горный пейзаж 2"
+    title: "Горный пейзаж 2"
 
 gallery2:
   - url: /assets/images/IMG_1922.jpeg
@@ -29,12 +33,8 @@ gallery2:
     title: "Горный пейзаж"
 ---
 
-## Галерея
-
-Текст перед первой галереей...
-
-{% include gallery id="gallery1" class="full" caption="Закаты и горы" %}
+{% include gallery id="gallery1" layout="third" caption="Закаты и горы" %}
 
 Текст перед второй галереей...
 
-{% include gallery id="gallery2" class="full" caption="Ещё красивые места" %}
+{% include gallery id="gallery2" caption="Ещё красивые места" %}
