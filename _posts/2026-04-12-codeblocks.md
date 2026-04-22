@@ -2,6 +2,7 @@
 layout: single
 title: "Пост с группировкой фоток"
 date: 2026-04-12 00:00:00 +0300
+published: false
 # categories: travel
 
 gallery1:
@@ -34,3 +35,9 @@ gallery2:
 Текст перед второй галереей...
 
 {% include gallery id="gallery2" caption="Ещё красивые места" %}
+
+```This is first```
+{: style="color: grey" .text-left .text-extra-bold}
+
+```This is second```
+{: style="color: blue" .text-right .text-extra-bold}

@@ -2,6 +2,7 @@
 layout: single
 title: "Моя первая запись"
 date: 2026-04-11 00:00:00 +0300
+published: false
 # categories: travel
 ---
 
