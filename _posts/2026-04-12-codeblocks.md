@@ -41,3 +41,7 @@ gallery2:
 
 ```This is second```
 {: style="color: blue" .text-right .text-extra-bold}
+
+> The secret to creativity is knowing how to hide your sources.
+>
+> <cite>Albert Einstein</cite>
