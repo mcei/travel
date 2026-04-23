@@ -1,6 +1,6 @@
 # _data/navigation.yml
 main:
   - title: "О сайте"
-    url: /about/
-  - title: "Страница"
+    url: /about
+  - title: "О всяком"
     url: /subfolder/
